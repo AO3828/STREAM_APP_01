@@ -154,8 +154,8 @@ def identify_category_and_courses(user_message):
 
 import json
 
-filepath = './data/courses-full.json'
-#filepath = 'courses-full.json'
+#filepath = '../data/courses-full.json'
+filepath = 'data/courses-full.json'
 
 with open(filepath, 'r') as file:
     json_string = file.read()
